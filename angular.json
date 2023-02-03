@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "pwa": "apps/pwa",
+    "pwa-e2e": "apps/pwa-e2e"
+  }
+}
