@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/accounts/data-access",
+  "sourceRoot": "libs/accounts/data-access/src",
+  "prefix": "my-nx",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/accounts/data-access"],
+      "options": {
+        "jestConfig": "libs/accounts/data-access/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/accounts/data-access/src/**/*.ts",
+          "libs/accounts/data-access/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

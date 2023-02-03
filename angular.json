@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "accounts-data-access": "libs/accounts/data-access",
     "pwa": "apps/pwa",
     "pwa-e2e": "apps/pwa-e2e",
     "ui": "libs/ui"
